@@ -5,7 +5,7 @@ Synchronize your [flashed invaders](https://www.space-invaders.com/flashinvaders
 ## Installation
 
 ```sh
-uv tool install .
+uv tool install invasync
 ```
 
 ## Usage
