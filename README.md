@@ -21,7 +21,7 @@ uv tool install .
 }
 ```
 
-2. Run the InvaSync:
+2. Run InvaSync:
 
 ```sh
 invasync -u users.json
