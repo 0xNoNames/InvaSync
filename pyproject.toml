@@ -2,6 +2,8 @@
 name = "invasync"
 version = "1.0.0"
 description = "Invaders synchronizer"
+readme = "README.md"
+authors = [{ name = "0xNoNames" }]
 requires-python = ">=3.9"
 dependencies = ["httpx>=0.28.1"]
 
