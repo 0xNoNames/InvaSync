@@ -5,7 +5,10 @@ description = "Invaders synchronizer"
 readme = "README.md"
 authors = [{ name = "0xNoNames", email = "xnonames@proton.me" }]
 requires-python = ">=3.9"
-dependencies = ["httpx>=0.28.1"]
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "httpx>=0.28.1",
+]
 
 [project.urls]
 repository = "https://github.com/0xNoNames/InvaSync"
