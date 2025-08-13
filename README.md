@@ -16,8 +16,10 @@ uv tool install invasync
 {
   "your_name": {
     "flash_uid": "YOUR FLASH UID",
-    "map_token": "YOUR INVADER MAP PHPSESSID"
-  }
+    "map_email": "YOUR INVADER MAP EMAIL"
+    "map_password": "YOUR INVADER MAP PASSWORD"
+  },
+  ...
 }
 ```
 
@@ -31,8 +33,8 @@ invasync -u users.json
 
 ## Automatic updates
 
-The following code will schedule a cron job running everyday at 6 pm:
+The following code will schedule a cron job running every 10 minutes:
 
 ```crontab
-0 18 * * * /home/USER/.local/bin/invasync -u /path/to/user.json
+*/10 * * * * /home/USER/.local/bin/invasync -u /path/to/user.json
 ```
