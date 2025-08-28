@@ -13,14 +13,16 @@ uv tool install invasync
 1. Create a `users.json` file:
 
 ```json
-{
-  "your_name": {
+[
+  {
+    "name": "YOUR NAME",
     "flash_uid": "YOUR FLASH UID",
-    "map_email": "YOUR INVADER MAP EMAIL"
-    "map_password": "YOUR INVADER MAP PASSWORD"
+    "map_email": "YOUR INVADER MAP EMAIL",
+    "map_password": "YOUR INVADER MAP PASSWORD",
+    "map_token": "leave empty"
   },
   ...
-}
+]
 ```
 
 2. Run InvaSync:

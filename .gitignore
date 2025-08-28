@@ -6,6 +6,7 @@ dist/
 wheels/
 *.egg-info
 users.json
+.dmypy.json
 
 # Virtual environments
 .venv
